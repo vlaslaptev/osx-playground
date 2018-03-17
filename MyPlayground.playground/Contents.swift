@@ -2,4 +2,12 @@
 
 import UIKit
 
-var str = "Hello, playground"
+var str = """
+   Test string literals
+      abc
+   acb
+abc
+"""
+
+print(str)
+
