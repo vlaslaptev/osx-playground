@@ -7,6 +7,8 @@ var str = """
       abc
    acb
 abc
+   abc
+      abc
 """
 
 print(str)
@@ -55,6 +57,42 @@ func greet(name: String, day: String) -> String {
     return result
 }
 greet(name: "Bob", day: "Tuesday")
+
+arc4random()
+min(1, 2, 3, 5, 1, 0, -1, 1, 3, 1.1, 1234723)
+var yyy = [1, 2, 3, 5, 1, 0, -1, 1, 3, 1.1, 1234723]
+yyy.min()
+
+let xlast = arc4random();
+var xxx = [UInt32(1267123456), xlast]
+type(of: xxx)
+
+
+
+class User {
+    var name = "test"
+    var pass = "****"
+}
+
+var user = User()
+print("\(user.name) : \(user.pass)")
+print("2frefwad".sorted())
+
+
+class SomeClass {
+    var a = "a"
+}
+
+
+class SomeSubclass: SomeClass {
+    var b = "b"
+}
+
+var someSubclass = SomeSubclass()
+someSubclass.a
+
+
+
 
 
 
