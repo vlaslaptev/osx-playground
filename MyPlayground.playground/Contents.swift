@@ -92,6 +92,26 @@ var someSubclass = SomeSubclass()
 someSubclass.a
 
 
+extension Double {
+    
+    func celsiusToFahrenheit() -> Double {
+        return self * 9 / 5 + 32
+    }
+    
+    func fahrenheitToCelsius() -> Double {
+        return (self - 32) * 5 / 9
+    }
+    
+    func square() -> Double {
+        return self * 2
+    }
+}
+
+let boilingPointCelsius = 100.0
+let boilingPointFarenheit = boilingPointCelsius.celsiusToFahrenheit()
+print(boilingPointFarenheit)
+
+let squareTest = 100.1.square()
 
 
 
